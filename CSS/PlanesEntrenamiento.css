@@ -10,6 +10,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .Encabezado{
+    position: fixed;
+    top: 2px;
     background-color: whitesmoke;
     width: 100%;
 }
@@ -214,6 +216,91 @@ body{
 
 
 
+/*Contenedor WhatsApp*/
+.WhatsAppContainer{
+    border: 2px solid white;
+    position: fixed;
+    top: 425px;
+    right: 10px;
+    width: 20%;
+    height: 220px;
+    background-color:limegreen;
+    border-radius: 10px;
+}
+.TittleContainer{
+    border-radius: 10px;
+    height: 40px;
+}
+.LogoWhatsAppImg{
+    display: inline-block;
+    width: 15%;
+    float: left;
+    margin: 3% 5%;
+}
+.TittleContainer p{
+    display: inline-block;
+    color: white;
+    font-size: larger;
+    padding: 3% 0;
+    width: 40%;
+}
+.CerrarWhatsAppContainer{
+    display: inline-block;
+    margin: 3% 3% 3% 25%;
+    font-size: larger;
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+.CerrarWhatsAppContainer:hover{
+    color: black;
+}
+.MensagueContainer{
+    height: 130px;
+    background-color:wheat;
+    padding: 5% 3% 0 3%;
+}
+.MensajeWhatsApp{
+    
+    background-color: white;
+    font-size: 10px;
+    width: 95%;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: left;
+    padding: 2%;
+}
+.BtnContainer{
+    background-color: limegreen;
+}
+.BtnWhatsApp{
+    border: 5px solid white;
+    background-color: limegreen;
+    color: white;
+    float: right;
+    width: 50%;
+    margin: 3% 2%;
+    padding: 1% 6%;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+}
+.BtnWhatsApp:hover{
+    border: 5px solid #30D5C8;
+    color: black;
+}
+.LogoBtnEnviar{
+    display: inline-block;
+    width: 20%;
+    height: 15px;
+}
+.TextoBtnEnviar{
+    display: inline-block;
+    width: 70%;
+    height: 18px;
+}
+
 /* Pie de pagina */
 footer{
     width: 100%;
@@ -249,3 +336,11 @@ footer{
     width: 80%;
     padding: 5% 0;
 }
+
+
+
+
+
+
+
+
